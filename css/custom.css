@@ -1,0 +1,52 @@
+/*==============================ADD FONTS APIS===============================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+/*==============================ADD FONTS APIS===============================*/
+
+/*================================ VARIABLES ================================*/
+:root{
+
+  --primary-color : #2196f3;
+  --primary-color-hover : #0b5ed7;
+  --primary-color-light : #eaf4fd;
+
+  --text-color : #3d3d3d;
+  --textlight-color : #a1a3a7;
+
+  --text-red : #e53935;
+  --text-green : #08b308;
+
+	--bgbody-color : #f8f9fa;
+	--bglight-color : #F5F5F7;
+  --border-color : #e0e0e0;
+
+	--primaryfont : 'Lato', sans-serif;
+
+	--letterspacing-small : 0.05rem;
+	--letterspacing-medium : 0.10rem;
+
+}
+/*================================ VARIABLES ================================*/
+/*============================= SCROLLBAR START =============================*/
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+body::-webkit-scrollbar{
+    width: 5px;   
+}
+body::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+/*============================== SCROLLBAR END ==============================*/
+body{
+  font-family: var(--primaryfont);
+  background-color: var(--bgbody-color);
+  padding: 10px !important;
+  letter-spacing:  var(--letterspacing-small);
+  color: var(--text-color);
+}
+a{color: var(--primary-color); text-decoration:  none;}
+a:hover, a:focus, .btn:hover, .btn:focus{ box-shadow: none; text-decoration: none;}
+

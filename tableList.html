@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="icon" href="img/faviconx.ico"> -->
+  <link type="image/png" sizes="96x96" rel="icon" href="img/favicon.ico">
+  <title>Table List Responsive</title>
+
+<!-- STYLESHEET -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/tablelist.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+</head>
+<body>
+<div class="card">
+  <div class="card-header py-3 bg-white">
+    <div class="row justify-content-between g-0">
+      <div class="col-12 col-md-auto  d-flex align-items-center">
+        <h6 class="m-0 fw-bold">Financial Statement for the Financial Year : 2020-2021</h6>
+      </div>
+    </div>
+  </div>
+  <div class="card-body p-2 p-lg-0">
+    <table class="table table-respon caption-top">
+      <caption class="cellorder-2">
+        <div class="pagecount-wrap">
+          <span class="material-icons-outlined icon">attach_file</span>
+          <span class="mx-2">Page</span>
+          <div class="pagecount">
+            <span class="currentpage">1</span>
+            <span>/</span>
+            <span class="totalpage">2</span>
+          </div>
+        </div>
+      </caption>
+      <thead class="table-dark">
+        <tr>
+          <th>Date</th>
+          <th>Segment</th>
+          <th>Particulars</th>
+          <th class="text-end">Debit</th>
+          <th class="text-end">Credit</th>
+          <th class="text-end">Net</th>
+        </tr>
+      </thead>
+      <tbody class="p-0 cellorder-3">
+         <tr>
+          <td class="colauto fw-bold">01-04-2021</td>
+          <td class="colauto text-secondary">NSE-EQ</td>
+          <td class="col1 text-secondary">Fund Transfer back as part of quarterly settlement (inactive)</td>
+          <td class="col2 labelend text-red fw-bold text-end" data-column="Dr">99,899.35</td>
+          <td class="col2 labelend text-green td-hide fw-bold text-end" data-column="Cr">0</td>
+          <td class="col2 text-secondary text-end" data-column="Balance :">0.00</td>
+        </tr>
+        <tr>
+          <td class="colauto fw-bold">02-06-2021</td>
+          <td class="colauto text-secondary">NSE-EQ</td>
+          <td class="col1 text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Debitis qui</td>
+          <td class="col2 labelend text-red fw-bold text-end" data-column="Dr">10.62</td>
+          <td class="col2 labelend text-green td-hide fw-bold text-end" data-column="Cr">0</td>
+          <td class="col2 text-secondary text-end" data-column="Balance :">99,899.35</td>
+        </tr>
+        <tr>
+          <td class="colauto fw-bold">03-08-2021</td>
+          <td class="colauto text-secondary">NSE-EQ</td>
+          <td class="col1 text-secondary">Lorem ipsum dolor sit amet  nulla blanditiis in autem quo repellendus.</td>
+          <td class="col2 labelend text-red td-hide fw-bold text-end" data-column="Dr">0</td>
+          <td class="col2 labelend text-green fw-bold text-end" data-column=" Cr">1,00,000.00</td>
+          <td class="col2 text-secondary text-end" data-column="Balance :">0.00</td>
+        </tr>
+        <tr>
+          <td class="colauto fw-bold">08-09-2021</td>
+          <td class="colauto text-secondary">NSE-EQ</td>
+          <td class="col1 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit</td>
+          <td class="col2 labelend text-red text-end" data-column="Dr">1.35</td>
+          <td class="col2 labelend text-green td-hide text-end" data-column=" Cr">0</td>
+          <td class="col2 text-secondary text-end" data-column="Balance :">-88.50</td>
+        </tr>
+        <tr>
+          <td class="colauto fw-bold">21-12-2021</td>
+          <td class="colauto text-secondary">NSE-EQ</td>
+          <td class="col1 text-secondary">Lorem ipsum dolor, sit amet consectetur adipisi explicabo commodi labore quos, </td>
+          <td class="col2 labelend text-red fw-bold text-end" data-column="Dr">88.60</td>
+          <td class="col2 labelend text-green td-hide fw-bold text-end" data-column=" Cr">0</td>
+          <td class="col2 text-secondary text-end" data-column="Balance :">-88.00</td>
+        </tr>
+        <tr>
+          <td class="colauto fw-bold">01-07-2021</td>
+          <td class="colauto text-secondary">NSE-EQ</td>
+          <td class="col1 text-secondary">Lorem ipsum dolor, sit amet consectetur adipisi explicabo commodi labore quos, </td>
+          <td class="col2 labelend text-red fw-bold text-end" data-column="Dr">18.93</td>
+          <td class="col2 labelend text-green td-hide fw-bold text-end" data-column="Cr">0</td>
+          <td class="col2 text-secondary text-end" data-column="Balance :">1,98,294.00</td>
+        </tr>
+        <tr>
+          <td class="colauto fw-bold">19-02-2021</td>
+          <td class="colauto text-secondary">NSE-EQ</td>
+          <td class="col1 text-secondary">Lorem ipsum dolor, sit amet consectetur adipisi explicabo commodi labore quos, </td>
+          <td class="col2 labelend text-red td-hide fw-bold text-end" data-column="Dr">0</td>
+          <td class="col2 labelend text-green fw-bold text-end" data-column="Cr">157.11</td>
+          <td class="col2 text-secondary text-end" data-column="Balance :">1,98,294.00</td>
+        </tr>
+        <tr>
+          <td class="colauto fw-bold">22-08-2021</td>
+          <td class="colauto text-secondary">NSE-EQ</td>
+          <td class="col1 text-secondary">Lorem ipsum dolor, sit amet consectetur adipisi explicabo commodi labore quos, </td>
+          <td class="col2 labelend text-red td-hide fw-bold text-end" data-column="Dr">29,199.25</td>
+          <td class="col2 labelend text-green fw-bold text-end" data-column="Cr">0</td>
+          <td class="col2 text-secondary text-end" data-column="Balance :">1,98,294.00</td>
+        </tr>
+      </tbody>
+      <tfoot class="table-light cellorder-1">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="fw-bold text-end col2 openbal" data-column="Opening Balance :">720.71</td>
+          <td class="fw-bold text-end col2 closebal" data-column="Closing Balance :">0</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+
+<!-- SCRIPT -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
