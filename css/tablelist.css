@@ -148,7 +148,8 @@
     table.table-respon .cellorder-3{order: 3;}
     
     table.table-respon tbody tr td.text-end{
-      justify-content:  flex-end;
+      justify-content: flex-end;
+      align-items: flex-end;
     }
 
     table.table-respon td:not(.labelend):before{ 
@@ -156,16 +157,17 @@
         font-size: 0.75rem;
         font-weight: 500;
         color: var(--textlight-color);
-        text-align:  left;
-        padding-right: 5px;
+        text-align:  right;
+        /*padding-right: 5px;*/
+        width: 100%;
     }
     table.table-respon td.labelend:after{ 
         content: attr(data-column);
-        font-size: 0.75rem;
+        font-size: 0.85rem;
         font-weight: 600;
         color: var(--textlight-color);
         text-align:  left;
-        padding-left: 5px;
+        padding-left: 3px;
     }
     table.table-respon td.text-red:after{
         color: var(--text-red);
